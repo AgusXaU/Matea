@@ -1,0 +1,134 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header{
+    padding: 0.2em;
+    background-color: silver;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div{
+    padding-right: 1em;
+}
+nav div a{
+    margin: 1em;
+    font-size:1.2em;
+    color: blue;
+}
+nav div input{
+    border: 1px solid blue;
+    border-radius: 1em;
+    background-color: transparent;
+    padding: 1em;
+    letter-spacing: 0.1em;
+    color: blue;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pricing{
+    text-align: center;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+}
+.pricing h3{
+    width: 20em;
+    color: rgb(158, 158, 158);
+}
+
+
+
+
+.contenedor-carta{
+    display: flex;
+    text-align: center;
+}
+.backgroundTop-carta{
+    background-color: silver;
+    height: 3em;
+    width: 100%;
+    border-radius: 0.45em 0.45em 0 0;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.backgroundTop-carta span{
+    font-size:0.8em ;
+}
+
+.descripcion-carta{
+    margin:1em;
+    border: 1px solid silver;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    box-shadow: 0px 3px 3px ;
+}
+.descripcion-carta h1{
+    margin:0;
+}
+.descripcion-carta h1 span{
+    font-size: 0.8em;
+}
+.descripcion-carta ul {
+    list-style: none;
+    padding: 0 1em 1em 1em;
+}
+.descripcion-carta input{
+    width: 90%;
+    border: 1px solid rgba(0, 0, 255, 0.589);
+    background-color: transparent;
+    padding: 0.3em;
+    margin:5px;
+    border-radius: 0.5em;
+    font-size: 18px;
+    cursor: pointer;
+}
+.carta-centro{
+    transform: scale(1.10);
+}
+.carta-centro input{
+    background-color: rgba(104, 173, 252, 0.527);
+}
+.descripcion-carta input:hover{
+    background-color: rgba(104, 173, 252, 0.527);
+    border: 1px solid rgb(0, 0, 255);
+    transition-duration: 300ms;
+}
+.carta-centro input:hover{
+    background-color: rgba(0, 60, 255, 0.63);
+    transition-duration: 300ms;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+footer ul{
+    list-style: none;
+    padding: 1em;
+    font-size: 2em;
+}
+footer ul h4{
+ padding: 0%;
+ margin: 0 0 0.5em 0;
+ font-size: 1em;
+}
+footer ul li{
+    color: rgba(0, 0, 255, 0.74);
+    font-size: 0.7em;
+    cursor: pointer;
+}
+.copyRight{
+    text-align: center;
+}
